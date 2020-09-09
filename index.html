@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="form">
+        <h3 class="send-heading">
+            Send us a  Message
+        </h3>
+        <form class="form" action="https://echo.htmlacademy.ru" method="POST">
+            <div class="imput">
+                <label class="visually-hidden" for="name">Name</label>
+                <input class="form-input" id="name" name="name" type="text" placeholder="Name" required>
+            </div>
+            <div class="imput-email">
+                <label class="visually-hidden" for="email">email</label>
+                <input class="form-input" id="email" name="email" type="email" placeholder="email" required>
+            </div>
+            <div class="imput-tel">
+                <label class="visually-hidden" for="tel">Telefon raqamingiz</label>
+                <input class="form-input" id="mobile" name="mobile" type="mobile" placeholder="Mobile" required>
+            </div>
+            <h4 class="communication">Preferred mode of Communiation</h4>
+            <input type="radio" id="Email" name="Email" value="Email">
+            <label for="Email">Email</label>
+            <input type="radio" id="Phone" name="Email" value="Phone">
+            <label for="Phone">Phone</label>
+            <br>
+            <label class="visually-hidden" for="Message">Message</label>
+            <input class="form-input" id="name" name="name" type="text" placeholder="Message" required>
+            <button class="main-button form-button" type="submit">Submit</button>
+        </form>
+            
+            
+        </div>
+        
+    </body>
+    </html>
